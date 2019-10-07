@@ -52,13 +52,13 @@ button{
   z-index: 4000;
   height: 40%;
   width: 80%;
-  background-image: url(Images/Modalback.png);
+  background-image: url(Images/Modalbackground.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .victory,
 #victory{
-  background-image: url(Images/Victory.png);
+  background-image: url(Images/Win.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 40%;
@@ -242,13 +242,13 @@ li{
   opacity: 1;
 }
 .cardfrontillaoi{
-  background-image:url(Images/Brawler_relic.png);
+  background-image:url(Images/Illaoicard.png);
 }
 .cardfrontdarius{
-  background-image:url(Images/Dariusaxe.png);
+  background-image:url(Images/Dariuscard.png);
 }
 .cardfrontswain{
-  background-image:url(Images/Swaincardback.png);
+  background-image:url(Images/Swaincard.png);
 }
 .cardfront,
 .cardback{
