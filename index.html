@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css">
+  <script src="https://kit.fontawesome.com/358f1cd514.js" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+  <title>Document</title>
+
+</head>
+
+<body>
+  <audio id="victory">
+    <source src="Audio/victory.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="matchedcard">
+    <source src="Audio/matchedcard.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="cardhover">
+    <source src="Audio/cardhover.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="selection">
+    <source src="Audio/selection.mp3" type="audio/mpeg">
+  </audio>
+  <video autoplay muted loop id="video" class="hidden video1">
+    <source src="Videos/illaoibackground.mp4">
+  </video>
+  <audio loop id="illaoitheme">
+    <source src="Audio/Illaoi.mp3" type="audio/mpeg">
+  </audio>
+  <video autoplay muted loop id="video" class="hidden video2">
+    <source src="Videos/swainbackground.mp4">
+  </video>
+  <audio loop id="swaintheme">
+    <source src="Audio/swain.mp3" type="audio/mpeg">
+  </audio>
+  <video autoplay muted loop id="video" class="hidden video3">
+    <source src="Videos/dariusbackground.mp4">
+  </video>
+  <audio loop id="dariustheme">
+    <source src="Audio/darius.mp3" type="audio/mpeg">
+  </audio>
+  <nav class="navbar sticky-top navbar-dark bg-dark">
+    <ul class="statbox">
+      <div class="ulbox">
+        <ul class="box">
+          <li>
+            GAMES
+          </li>
+          <li class="gamesplayedli">0
+          </li>
+        </ul>
+      </div>
+      <div class="ulbox">
+        <ul class="box">
+          <li>
+            MATCHES
+          </li>
+          <li class="matchesli">0
+          </li>
+        </ul>
+      </div>
+      <div class="ulbox">
+        <ul class="box">
+          <li>
+            ATTEMPTS
+          </li>
+          <li class="attemptsli">0
+          </li>
+        </ul>
+      </div>
+      <div class="ulbox">
+        <ul class="box">
+          <li>
+            ACCURACY
+          </li>
+          <li class="accuracyli">0 %
+          </li>
+        </ul>
+      </div>
+      <div class="ulbox ulreset">
+        <ul class=" box">
+          <li class="resetli">
+            <button class="resetbutton">
+              RESET
+              <div class="resetdropdown">
+          <li class="reset hidden resetcurrentgame">CURRENT GAME</li>
+          <li class="reset hidden resetfullgame">FULL GAME</li>
+      </div>
+      </button>
+      </li>
+    </ul>
+    </div>
+    <div class="ulbox uldifficulty">
+      <div class="box">
+        <li class="difficultyli">
+          <button class="difficultybutton">
+            DIFFICULTY
+            <div class="difficultydropdown">
+        <li class="difficulty1 difficulty hidden introbutton introbutton1">ILLAOI
+        </li>
+        <li class="difficulty2 difficulty hidden introbutton introbutton2">SWAIN
+        </li>
+        <li class="difficulty3 difficulty hidden introbutton introbutton3">DARIUS
+        </li>
+      </div>
+      </button>
+      </li>
+    </div>
+    </div>
+    </ul>
+  </nav>
+
+  <header>
+
+  </header>
+  <div id="myModal" class="modal thismodal modalagain">
+    <div class="modal-content">
+      <div class="buttoncontainer">
+        <button class="introbutton introbutton1">ILLAOI<p class="smalltext">EASY</p></button>
+        <button class="introbutton introbutton2">SWAIN<p class="smalltext">MEDIUM</p></button>
+        <button class="introbutton introbutton3">DARIUS<p class="smalltext">HARD</p></button>
+      </div>
+    </div>
+  </div>
+  <div id="victory" class="victory modal thismodal modalagain">
+    <div class="modal-content">
+      <div class="playagainbuttoncontainer buttoncontainer">
+        <div class="introbutton" id="playagain">CONTINUE</div>
+      </div>
+    </div>
+  </div>
+  <div class="restcontainer">
+    <div class="main">
+
+    </div>
+  </div>
+  <script src="https://kit.fontawesome.com/358f1cd514.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+</body>
+
+</html>
