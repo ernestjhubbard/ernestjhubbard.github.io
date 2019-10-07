@@ -61,6 +61,7 @@ button{
   background-image: url(Images/Win.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   height: 40%;
   width: 80%;
 }
